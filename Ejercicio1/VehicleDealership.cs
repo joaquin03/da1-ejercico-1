@@ -3,7 +3,6 @@ namespace Ejercicio1;
 public class VehicleDealership
 {
     //Validate if is a Classic Vehicle
-    
     public bool IsClassicVehicle(object v) 
     { 
         if (v is Car) { 
@@ -36,4 +35,11 @@ public class VehicleDealership
 
         return false;
     } 
+    
+    
+    public bool IsEcologic(object v)
+    {
+        throw new NotImplementedException();
+    }
+
 }
